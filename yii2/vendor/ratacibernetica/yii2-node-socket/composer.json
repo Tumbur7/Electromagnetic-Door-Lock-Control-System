@@ -1,0 +1,19 @@
+{
+    "name": "ratacibernetica/yii2-node-socket",
+    "description": "This is a fork of oncesk/yii-node-socket",
+    "minimum-stability": "dev",
+    "authors": [
+	{
+            "name": "Martin Roldan Araujo",
+            "email": "yo@ratacibernetica.com"
+        }
+    ],
+    "require": {
+        "oncesk/elephant.io": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "YiiNodeSocket\\": "lib/php/"
+        }
+    }
+}
